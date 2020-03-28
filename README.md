@@ -1,10 +1,10 @@
 # sinusbot
 
-./SinusBot off
+./SinusBot.sh off
 
-./SinusBot on
+./SinusBot.sh on
 
-./SinusBot reload
+./SinusBot.sh reload
 
-./SinusBot installare
+./SinusBot.sh installare
 
