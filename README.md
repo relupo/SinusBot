@@ -1,4 +1,7 @@
 # sinusbot
+chmod 777 SinusBot.sh
+
+
 
 ./SinusBot.sh off
 
