@@ -17,20 +17,20 @@ echo -e "$COL_RED
 if [ "$1" = "reload" ] 
     then 
         service sinusbot restart
-        echo -e "Info: $COL_GREEN SinusBot fatto reload $COL_RESET"
+        echo -e "Info: $COL_GREEN SinusBot fatto Reload $COL_RESET"
     fi
 if [ "$1" = "off" ] 
     then 
         service sinusbot stop
-        echo -e "Info: $COL_GREEN stop è stato fermato 3.2.1.Go! $COL_RESET"
+        echo -e "Info: $COL_GREEN stop OFF $COL_RESET"
     fi	
 if [ "$1" = "on" ] 
     then 
         systemctl start sinusbot
-        echo -e "Info: $COL_GREEN On è stato fermato 3.2.1.Go! $COL_RESET"
+        echo -e "Info: $COL_GREEN On Bot $COL_RESET"
     fi	
 if [ "$1" = "installare" ] 
     then 
         bash <(wget -O - 'https://raw.githubusercontent.com/SinusBot/installer-linux/master/sinusbot_installer.sh')
-        echo -e "Info: $COL_GREEN installare è stato  3.2.1.Go! $COL_RESET"
+        echo -e "Info: $COL_GREEN installare Bot $COL_RESET"
     fi
